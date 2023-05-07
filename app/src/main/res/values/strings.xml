@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CoCoGoat</string>
+    <string name="cocogoatface">cocogoatface</string>
+    <string name="cocogoatwordimg">cocogoatwordimg</string>
+    <string name="genshinguidewordimg">genshinguidewordimg</string>
+    <string name="welcme">welcme</string>
+</resources>
