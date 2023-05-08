@@ -13,7 +13,12 @@
         android:theme="@style/Theme.CoCoGoat"
         tools:targetApi="31">
         <activity
-            android:name=".Others"
+            android:name=".Yaemikochr"
+            android:exported="false"
+            android:label="@string/title_activity_yaemikochr"
+            android:theme="@style/Theme.CoCoGoat.NoActionBar" />
+        <activity
+            android:name=".Characters"
             android:exported="false" />
         <activity
             android:name=".Splash"
