@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".Dashboard" >
+    tools:context=".Dashboard"
+    tools:ignore="Overdraw">
 
     <ImageView
-        android:id="@+id/welcme"
         android:layout_width="match_parent"
         android:layout_height="92dp"
         android:layout_alignParentStart="true"
@@ -34,7 +34,6 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/wepbtn"
         android:layout_width="125dp"
         android:layout_height="136dp"
         android:layout_alignParentTop="true"
@@ -46,7 +45,6 @@
         android:src="@drawable/weapons_btn" />
 
     <ImageButton
-        android:id="@+id/artibtn"
         android:layout_width="122dp"
         android:layout_height="137dp"
         android:layout_alignParentTop="true"
