@@ -1,4 +1,4 @@
-Watashi wa ganyu desu!
+Watashi wa ganyu desu!  
 Just Kidding This Readme Is Not In Jap
 uhmm.. Welcome To CoCoGoat-GenshinGuide
 In This Guide You Can Know About Character Builds,Quest Tutorials And Everything in the game
