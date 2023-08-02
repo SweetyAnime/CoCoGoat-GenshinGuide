@@ -9,8 +9,11 @@ i will change the name asap
 
 Features Added:
 Nothing
+
 ---------------------------------
+
 These Features Will Be Added:
+
 1.In Character Activity You Can See All 4 and 5 Star characters and in each character activity you can see full detailed character details
 like character description,builds,ascention,constellation,voice lines,NA/Skill/Burst Animations and many more
 2.In Weapon Activity You Can See the 3,4 & 5 Star weapon details like ascention materials,ascention stats,Refine Details,Suitable for which characters
@@ -21,6 +24,7 @@ New Events,Upcoming update Information also shown(seems like i have to up to dat
 ---------------------------------------
 
 Developer Notes:
+
 1.More Features Will Be Added,When i have shower thoughts ;) if you have any feature idea or found any errors or bug you can contact me
 in telegram. my Telegram Username is @SayonaraBakka. dont dm me for any other purpose im dangerous than you think,jk but pls don't
 2. This Project idea is big so it takes months to years to cover all topics about the game
