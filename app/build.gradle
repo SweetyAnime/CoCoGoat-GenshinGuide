@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace 'com.cocogoat.genshinguide'
-    compileSdk 34
+    namespace "com.cocogoat.genshinguide"
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.cocogoat.genshinguide"
-        minSdk 21
-        targetSdk 34
+        minSdkVersion 21
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0.02 Beta"
 
@@ -25,6 +25,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
@@ -32,28 +33,23 @@ android {
 
     tasks.withType(KotlinCompile).configureEach {
         kotlinOptions {
-            jvmTarget = '11'  // Change to Java 11
-        }
-
-        sourceSets {
-            main {
-                res {
-                    srcDirs 'src/main/res', 'src/main/res/drawable/splashimg'
-                }
-            }
-        }
-        buildFeatures {
-            viewBinding true
-        }
-
-        dependencies {
-            implementation 'androidx.core:core-ktx:1.10.1'
-            implementation 'androidx.appcompat:appcompat:1.6.1'
-            implementation 'com.google.android.material:material:1.9.0'
-            implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-            testImplementation 'junit:junit:4.13.2'
-            androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-            androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+            jvmTarget = "11"
         }
     }
+
+    buildFeatures {
+        viewBinding true
+    }
 }
+
+    dependencies {
+        implementation 'com.squareup.picasso:picasso:2.71828'
+        implementation 'androidx.core:core-ktx:1.10.1' // Updated version
+        implementation 'androidx.appcompat:appcompat:1.6.1' // Updated version
+        implementation 'com.google.android.material:material:1.9.0' // Updated version
+        implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Updated version
+
+        testImplementation 'junit:junit:4.13.2'
+        androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    }
