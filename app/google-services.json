@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "215514338723",
+    "project_id": "cocogoat-genshinguide",
+    "storage_bucket": "cocogoat-genshinguide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215514338723:android:b563e7be695e70a4c83616",
+        "android_client_info": {
+          "package_name": "com.cocogoat.genshinguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215514338723-liukuvve4vgm57idrc1iop3ig72spm6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cocogoat.genshinguide",
+            "certificate_hash": "8cb51f44b16814c4bbf76f73ccc251abe25b1c5a"
+          }
+        },
+        {
+          "client_id": "215514338723-14pmrfqvktu6o399pjlvhphfkbrrm2lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Xno2drm1V6NFVOun-UhilMkgwE-MhFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215514338723-14pmrfqvktu6o399pjlvhphfkbrrm2lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

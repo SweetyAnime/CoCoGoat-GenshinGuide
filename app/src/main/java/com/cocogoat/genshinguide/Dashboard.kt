@@ -1,45 +1,48 @@
 package com.cocogoat.genshinguide
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.squareup.picasso.Picasso
+import pl.droidsonroids.gif.GifDrawable
 
 class Dashboard : AppCompatActivity() {
-    //links to load img from github
-    private val charbtnUrl = "https://raw.githubusercontent.com/SweetyAnime/Resource_For_CoCoGoat-GenshinGuide/abc097c8610fb96cef55a220cb0c8ba5477c1f63/characters_btn.png" //character btn img
-    private val wpnImageUrl = "https://raw.githubusercontent.com/SweetyAnime/Resource_For_CoCoGoat-GenshinGuide/abc097c8610fb96cef55a220cb0c8ba5477c1f63/weapons_btn.png" //wepon btn image
-    private val artiimgUrl = "https://raw.githubusercontent.com/SweetyAnime/Resource_For_CoCoGoat-GenshinGuide/abc097c8610fb96cef55a220cb0c8ba5477c1f63/artifacts_btn.png"  //artifact btn image
-    @SuppressLint("MissingInflatedId")
+    private val wpnImageUrl = "https://firebasestorage.googleapis.com/v0/b/cocogoat-genshinguide.appspot.com/o/Dashboard%2Fweapons_btn.png?alt=media&token=8e1239cc-5be3-4198-b187-aeea2400b330"
+    private val artiImageUrl = "https://raw.githubusercontent.com/SweetyAnime/Resource_For_CoCoGoat-GenshinGuide/abc097c8610fb96cef55a220cb0c8ba5477c1f63/artifacts_btn.png"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
-        //hides action bar
         supportActionBar?.hide()
 
-        val chrbtn = findViewById<ImageButton>(R.id.chrbtn)
         val wpnbtn = findViewById<ImageButton>(R.id.wepbtn)
         val artibtn = findViewById<ImageButton>(R.id.artibtn)
+        val gifImageView = findViewById<pl.droidsonroids.gif.GifImageView>(R.id.chrbtn)
+        val transparentImageButton = findViewById<ImageButton>(R.id.overlaychrbtn)
 
-        // Load the image from github to character button
-        Picasso.get()
-            .load(charbtnUrl)
-            .into(chrbtn)
+        // Load images using Picasso
+        Picasso.get().load(wpnImageUrl).into(wpnbtn)
+        Picasso.get().load(artiImageUrl).into(artibtn)
 
-        //load img from github to wep button
-        Picasso.get()
-            .load(wpnImageUrl)
-            .into(wpnbtn)
+        // Handle weapon button click
+        wpnbtn.setOnClickListener {
+            // Handle weapon button click
+        }
 
-        //load img from github to arti button
-        Picasso.get()
-            .load(artiimgUrl)
-            .into(artibtn)
+        // Handle artifact button click
+        artibtn.setOnClickListener {
+            // Handle artifact button click
 
-        //by clicking chr wep it opens character activity
-        chrbtn.setOnClickListener {
+            // Set up GIF animation
+            val gifDrawable = gifImageView.drawable as GifDrawable
+            gifDrawable.loopCount = 10000 // Infinite loop
+            gifDrawable.start()
+        }
+
+        // Handle transparentImageButton click
+        transparentImageButton.setOnClickListener {
+            // Open the CharactersActivity when the ImageButton is clicked
             val intent = Intent(this, Characters::class.java)
             startActivity(intent)
         }

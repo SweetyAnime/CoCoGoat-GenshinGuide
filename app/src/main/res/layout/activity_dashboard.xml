@@ -19,42 +19,54 @@
         android:src="@drawable/welcome_banner"
         android:contentDescription="@string/welcme" />
 
-    <ImageButton
-        android:id="@+id/chrbtn"
-        android:layout_width="121dp"
-        android:layout_height="139dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="104dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/chrbt"
-        android:scaleType="fitCenter"
-        tools:ignore="SpeakableTextPresentCheck" />
 
-    <ImageButton
-        android:id="@+id/wepbtn"
-        android:layout_width="125dp"
-        android:layout_height="136dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="107dp"
-        android:contentDescription="@string/wepbt"
-        android:scaleType="fitCenter"
-        android:background="@android:color/transparent" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/artibtn"
-        android:layout_width="122dp"
-        android:layout_height="137dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="109dp"
-        android:layout_marginEnd="10dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/artbt" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/chrbtn"
+            android:layout_width="123dp"
+            android:layout_height="145dp"
+            android:layout_gravity="top|center"
+            android:layout_marginStart="-130dp"
+            android:layout_marginTop="103dp"
+            android:src="@drawable/characters_btn" />
 
+        <ImageButton
+            android:id="@+id/overlaychrbtn"
+            android:layout_width="126dp"
+            android:layout_height="145dp"
+            android:layout_gravity="top|center"
+            android:layout_marginStart="-130dp"
+            android:layout_marginTop="103dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/chrbtnovr"
+            android:padding="16dp" />
+
+        <ImageButton
+            android:id="@+id/wepbtn"
+            android:layout_width="125dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="103dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wepbt"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/artibtn"
+            android:layout_width="122dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/artbt"
+            android:scaleType="fitCenter"
+            tools:ignore="VisualLintBounds" />
+
+    </FrameLayout>
 
 
 </RelativeLayout>
