@@ -31,4 +31,10 @@ class Characters : AppCompatActivity() {
 
         //add others below
     }
+    //onstop method to save memory resource that cause lag on low end device
+    override fun onStop() {
+        super.onStop()
+        // Cancel all Picasso requests associated with this activity
+        Picasso.get().cancelTag(this)
+    }
 }

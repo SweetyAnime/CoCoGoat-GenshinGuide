@@ -15,6 +15,37 @@
         android:theme="@style/Theme.CoCoGoat"
         tools:targetApi="31">
         <activity
+            android:name=".Supportthecause"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1062135345330906~6973885380" />
+
+        <activity
+            android:name=".DailyCheckIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="facebook-login"
+                    android:scheme="yourapp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RedeemCode"
+            android:exported="false" />
+        <activity
+            android:name=".Characterbanners"
+            android:exported="false" />
+        <activity
+            android:name=".YaeWeapon"
+            android:exported="false" />
+        <activity
             android:name=".Yaemiko"
             android:exported="false" />
         <activity

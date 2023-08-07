@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".RedeemCode">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Redeem Codes"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="6dp"
+        android:text="Temporary Codes"
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/temporarycode1"
+        android:layout_width="357dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="56dp"
+        android:text="NS92PGDB52M"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/temporarycoderesource1"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:text="x60 Primogem\n x5 Adventurer's Experience"
+        android:textAlignment="center"
+        android:textColor="#2AAA8A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temporarycode1"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/temporarycodetimer1"
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:text="Time left: --:--:--"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temporarycoderesource1"
+        tools:ignore="HardcodedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

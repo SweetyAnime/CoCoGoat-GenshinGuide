@@ -12,4 +12,18 @@
     <string name="p">.</string>
     <string name="todo">TODO</string>
     <string name="chrbtnovr">chrbtnovr</string>
+    <string name="yaewep">yaewep</string>
+    <string name="weapons">Weapons</string>
+    <string name="yaeart">yaeart</string>
+    <string name="artifacts">Artifacts</string>
+    <string name="yaeasc">yaeasc</string>
+    <string name="ascention">Ascention</string>
+    <string name="yaec">yaec</string>
+    <string name="constellation">Constellation</string>
+    <string name="yaesk">yaesk</string>
+    <string name="skills">Skills</string>
+    <string name="talents">Talents</string>
+    <string name="yaepr">yaepr</string>
+    <string name="profile">Profile</string>
+    <string name="chrbn">chrbn</string>
 </resources>

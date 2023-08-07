@@ -23,8 +23,8 @@
 
     <ImageView
         android:id="@+id/aboutyaemikoImg"
-        android:layout_width="272dp"
-        android:layout_height="404dp"
+        android:layout_width="251dp"
+        android:layout_height="412dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -37,6 +37,161 @@
         app:layout_constraintTop_toBottomOf="@+id/yaemikovideo"
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/yaeweapon"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/yaewep"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/aboutyaemikoImg"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yaemikovideo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="57dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/weapons"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yaeweapon"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/yaeartifact"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/aboutyaemikoImg"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/yaeweapon"
+        app:layout_constraintTop_toBottomOf="@+id/yaemikovideo"
+        android:contentDescription="@string/yaeart" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="57dp"
+        android:layout_height="17dp"
+        android:text="@string/artifacts"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/aboutyaemikoImg"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/yaeartifact"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/yaeascention"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:contentDescription="@string/yaeasc" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/ascention"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yaeascention"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/yaecons"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/aboutyaemikoImg"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/yaeascention"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:contentDescription="@string/yaec" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="72dp"
+        android:layout_height="19dp"
+        android:text="@string/constellation"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/aboutyaemikoImg"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/yaecons" />
+
+    <ImageButton
+        android:id="@+id/yaetalents"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:contentDescription="@string/yaesk" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="56dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/talents"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yaetalents" />
+
+    <ImageButton
+        android:id="@+id/yaeprofile"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/aboutyaemikoImg"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toEndOf="@+id/yaetalents"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:contentDescription="@string/yaepr" />
+
+    <TextView
+        android:layout_width="56dp"
+        android:layout_height="15dp"
+        android:text="@string/profile"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/aboutyaemikoImg"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/yaeprofile" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
