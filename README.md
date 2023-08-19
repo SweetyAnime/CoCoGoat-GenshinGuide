@@ -7,21 +7,6 @@ The Reason i chosen ganyu name as cocogoat for this game. because im a ganyu mai
 unique name if any other app released in playstore with this name
 i will change the name asap  
 
-Features Added:  
-Nothing  
-
----------------------------------
-
-These Features Will Be Added:  
-
-1.In Character Activity You Can See All 4 and 5 Star characters and in each character activity you can see full detailed character details
-like character description,builds,ascention,constellation,voice lines,NA/Skill/Burst Animations and many more  
-2.In Weapon Activity You Can See the 3,4 & 5 Star weapon details like ascention materials,ascention stats,Refine Details,Suitable for which characters  
-3.In Traveler Guide You can see the details of Recent Redeem Codes with expiry dates(i try to alert it by app notification),
-Live resin calculation with notifaction when its full(its hard to do but i try my best),
-New Events,Upcoming update Information also shown(seems like i have to up to date with genshin)  
-
----------------------------------------
 
 Developer Notes:  
 
